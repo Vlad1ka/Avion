@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url(../asset/fonts/Satoshi-Regular.ttf);
+}
+
+@font-face {
+    font-family: ClashDisplay;
+    src: url(../asset/fonts/ClashDisplay-Regular.ttf);
+}
+
+
+.header{
+    height: 132px;
+    padding: 20px 28px 0 28px;
+    margin: 0 auto;
+
+    .container{
+        width: 1440px;
+        margin: 0 auto;
+
+    }
+
+    &__menu{
+        display: flex;
+        align-items: center;
+        padding: 0 0 20px 0;
+
+    }
+
+    &__logo{
+        margin-left: 643px;
+    }
+    
+    nav{
+        width: 675px;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 20px 354px;
+        color: #726E8D;
+        font-family: Satoshi;
+    }
+
+    hr{
+        color: #0000001A;
+    }
+
+    &__profile{
+        margin-left: 660px;
+        
+        img:nth-of-type(1){
+            margin-right: 16px;
+        }
+    }
+
+    a{
+        text-decoration: none;
+    }
+}

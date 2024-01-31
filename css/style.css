@@ -23,23 +23,25 @@
 }
 .header__menu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0 0 20px 0;
+}
+.header__logo {
+  margin-left: 643px;
 }
 .header nav {
   width: 675px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0 20px 354px;
   color: #726E8D;
   font-family: Satoshi;
 }
 .header hr {
-  width: 96, 25%;
   color: rgba(0, 0, 0, 0.1019607843);
+}
+.header__profile {
+  margin-left: 660px;
 }
 .header__profile img:nth-of-type(1) {
   margin-right: 16px;
@@ -320,23 +322,34 @@
   padding: 58px 82px 0 82px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
 }
-.footer .footer__menu h4 {
+.footer__columns {
+  display: flex;
+}
+.footer__columns h4 {
   font-family: ClashDisplay;
   font-weight: 400;
 }
-.footer .footer__menu p {
+.footer__columns p {
   font-family: Satoshi;
   font-size: 14px;
   margin-top: 12px;
 }
-.footer .footer__join h4 {
+.footer__columns__categories {
+  margin-left: 109px;
+}
+.footer__columns__ourCompany {
+  margin-left: 135px;
+}
+.footer__join {
+  margin-left: 105px;
+}
+.footer__join h4 {
   font-weight: 400;
   font-family: ClashDisplay;
 }
-.footer .footer__join input {
-  width: 354px;
+.footer__join input {
+  width: 509px;
   height: 56px;
   background-color: rgba(255, 255, 255, 0.1490196078);
   border: none;
@@ -345,7 +358,7 @@
   color: white;
   margin-top: 16px;
 }
-.footer .footer__join__btn {
+.footer__join__btn {
   width: 118px;
   height: 56px;
   background-color: white;
