@@ -377,16 +377,12 @@
 }
 
 .footer{
+    width: 1440px;
     height: 350px;
     background-color: #2A254B;
     color: white;
-
-    .container{
-        width: 1440px;
-        margin: 0 auto;
-        padding: 53px 0 0 80px;
-    }
-
+    margin: 0 auto;
+    padding: 53px 0 0 80px;
     &__title{
         display: flex;
 

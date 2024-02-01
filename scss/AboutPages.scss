@@ -306,14 +306,14 @@
 }
 
 .footer{
+    width: 1440px;
     height: 380px;
     background-color: #2A254B;
     color: white;
+    margin: 0 auto;
+    padding: 58px 82px 0 82px;
 
-    .container{
-        width: 1440px;
-        padding: 58px 82px 0 82px;
-        margin: 0 auto;
+    .container{ 
         display: flex;
     }
 

@@ -318,12 +318,10 @@
 }
 
 .footer {
+  width: 1440px;
   height: 350px;
   background-color: #2A254B;
   color: white;
-}
-.footer .container {
-  width: 1440px;
   margin: 0 auto;
   padding: 53px 0 0 80px;
 }
