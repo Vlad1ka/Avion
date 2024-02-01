@@ -18,7 +18,7 @@
   margin: 0 auto;
 }
 .header .container {
-  width: 1440px;
+  width: 1384px;
   margin: 0 auto;
 }
 .header__menu {
@@ -38,10 +38,11 @@
   font-family: Satoshi;
 }
 .header hr {
-  color: rgba(0, 0, 0, 0.1019607843);
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
 }
 .header__profile {
-  margin-left: 660px;
+  margin-left: 612px;
+  display: flex;
 }
 .header__profile img:nth-of-type(1) {
   margin-right: 16px;
