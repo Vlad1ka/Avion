@@ -1,9 +1,11 @@
+// Обнуление стилей
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+// Подключение стилей
 @font-face {
     font-family: Satoshi;
     src: url(../asset/fonts/Satoshi-Regular.ttf);
@@ -14,7 +16,7 @@
     src: url(../asset/fonts/ClashDisplay-Regular.ttf);
 }
 
-
+// Стили для шапки сайта
 .header{
     height: 132px;
     padding: 20px 28px 0 28px;
@@ -37,6 +39,7 @@
         margin-left: 643px;
     }
     
+    // Стили для навигации
     nav{
         width: 675px;
         display: flex;
@@ -64,6 +67,7 @@
     }
 }
 
+// Стили для блока с корзиной
 .cart{
     width: 1440px;
     height: 749px;
@@ -212,6 +216,7 @@
     }
 }
 
+// Стили для подвала
 .footer{
     width: 1440px;
     height: 380px;

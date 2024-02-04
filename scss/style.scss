@@ -1,9 +1,11 @@
+// Обнуление стилей
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+// Подключение стилей
 @font-face {
     font-family: Satoshi;
     src: url(../asset/fonts/Satoshi-Regular.ttf);
@@ -14,7 +16,7 @@
     src: url(../asset/fonts/ClashDisplay-Regular.ttf);
 }
 
-
+// Стили для шапки сайта
 .header{
     height: 132px;
     padding: 20px 28px 0 28px;
@@ -37,6 +39,7 @@
         margin-left: 643px;
     }
     
+    // Стили для навигации
     nav{
         width: 675px;
         display: flex;
@@ -64,6 +67,7 @@
     }
 }
 
+// Стили для баннер
 .banner{
     width: 1280px;
     height: 584px;
@@ -103,6 +107,7 @@
     }
 }
 
+// Стили для блока с отличиями бренда
 .different{
     height: 355px;
     margin: 0 auto;
@@ -141,6 +146,7 @@
     }
 }
 
+// Стили для карточек с товарами
 .newCeramics{
     width: 1440px;
     height: 761px;
@@ -198,6 +204,7 @@
     }
 }
 
+// Стили для блока с другими товарами
 .ourProducts{
     width: 1440px;
     height: 744px;
@@ -274,6 +281,7 @@
     }
 }
 
+// Стили для блока вступления в клуб
 .join{
     height: 481px;
     background-color: #F9F9F9;
@@ -324,6 +332,7 @@
     }
 }
 
+// Стили для блока с торговыми точками
 .outlets{
     width: 1440px;
     height: 603px;
@@ -362,6 +371,7 @@
     }
 }
 
+// Стили для подвала
 .footer{
     width: 1440px;
     height: 380px;

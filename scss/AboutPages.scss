@@ -1,9 +1,11 @@
+// Обнуление стилей
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+// Подключение стилей
 @font-face {
     font-family: Satoshi;
     src: url(../asset/fonts/Satoshi-Regular.ttf);
@@ -14,6 +16,7 @@
     src: url(../asset/fonts/ClashDisplay-Regular.ttf);
 }
 
+// Стили для шапки сайта
 .header{
     
     .container{
@@ -83,6 +86,7 @@
         padding: 20px 0 0 318px;
         background-color: #F9F9F9;
 
+        // Стилия для навигации
         nav{
             width: 803px;
             display: flex;
@@ -97,6 +101,7 @@
     }
 }
 
+// Стили для блока с описанием бренда
 .brand{
     width: 1440px;
     height: 246px;
@@ -113,6 +118,7 @@
     }
 }
 
+// Стили для блока с торговыми точками
 .outlets{
     width: 1440px;
     height: 603px;
@@ -151,6 +157,7 @@
     }
 }
 
+// Стили для блока с описанием сервиса
 .service{
     width: 1440px;
     height: 603px;
@@ -188,6 +195,7 @@
     }
 }
 
+// Стили для блока с отличиями бренда
 .different{
     height: 355px;
     margin: 0 auto;
@@ -226,6 +234,7 @@
     }
 }
 
+// Стили для блока вступления в клуб
 .join{
     width: 1440px;
     height: 443px;
@@ -306,6 +315,7 @@
     }
 }
 
+// Стили для подвала
 .footer{
     width: 1440px;
     height: 380px;

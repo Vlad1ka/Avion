@@ -1,9 +1,11 @@
+// Обнуление стилей
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+// Поключение стилей
 @font-face {
     font-family: Satoshi;
     src: url(../asset/fonts/Satoshi-Regular.ttf);
@@ -14,6 +16,7 @@
     src: url(../asset/fonts/ClashDisplay-Regular.ttf);
 }
 
+// Стили для шапки сайта
 .header{
     height: 121px;
     
@@ -72,6 +75,7 @@
         text-decoration: none;
     }
 
+    // Стили для навигации
     nav{
         width: 675px;
         display: flex;
@@ -83,6 +87,7 @@
     }
 }
 
+// Стили для баннера
 .banner{
     width: 1440px;
     margin: 0 auto;
@@ -231,6 +236,7 @@
     }
 }
 
+// Стили для блока с товарами
 .alsolike{
     width: 1440px;
     height: 761px;
@@ -288,6 +294,7 @@
     }
 }
 
+// Стили для блока с отличиями 
 .different{
     height: 355px;
     margin: 0 auto;
@@ -326,6 +333,7 @@
     }
 }
 
+// Стили для блока вступления в клуб
 .join{
     width: 1440px;
     height: 481px;
@@ -378,6 +386,7 @@
     }
 }
 
+// Стили для подвала
 .footer{
     width: 1440px;
     height: 350px;
