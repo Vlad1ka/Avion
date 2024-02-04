@@ -228,9 +228,10 @@
 
 .join{
     width: 1440px;
-    height: 481px;
+    height: 443px;
     margin: 0 auto;
     background-image: url(../asset/media/About/sign-up.jpg);
+    background-repeat: no-repeat;
 
     &__base{
         width: 1273px;
@@ -262,7 +263,7 @@
             background-color: #F9F9F9;
             border: none;
             font-family: Satoshi;
-            margin: 72px 0 0 484px;
+            margin: 40px 0 0 484px;
             padding-left: 32px;
             color: #2A254B;
         }

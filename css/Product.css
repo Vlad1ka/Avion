@@ -273,9 +273,11 @@
 }
 
 .join {
+  width: 1440px;
   height: 481px;
   background-color: #F9F9F9;
   padding-top: 52px;
+  margin: 0 auto;
 }
 .join__base {
   width: 1273px;
